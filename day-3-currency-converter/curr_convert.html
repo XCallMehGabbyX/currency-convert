@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="background">
+        <div class="main-div mx-auto shadow-lg">
+            <label class="from" for="">From</label>
+            <select class="first-select">
+                <option disabled>Choose currency</option>
+                <option value="b">USD</option>
+            </select>
+            <input type="number" id="first-amt" class="first-amount" placeholder="input amount">
+
+            <label class="to" for="">To</label>
+            <select class="second-select">
+                <option disabled>Choose currency</option>
+                <option value="a">NGN</option>
+            </select>
+            <span class="second-amount pt-2" id="output"></span>
+
+            <input type="submit" class="btn btn-success" id="convert" value="Convert">
+        </div>
+    </div>
+    <script src="./assets/js/JSfile.js"></script>
+</body>
+</html>

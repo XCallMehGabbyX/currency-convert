@@ -1,0 +1,76 @@
+.background {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 200px;
+
+}
+
+.main-div {
+    position: relative;
+    background: white;
+    width: 60%;
+    border-radius: 10px;
+    height: 225px;
+}
+.from {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.to {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.first-select {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.second-select {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+}
+.first-amount {
+    position: absolute;
+    top: 105px;
+    left: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+}
+.second-amount {
+    position: absolute;
+    top: 105px;
+    right: 20px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.btn {
+    width: 540px;
+    position: absolute;
+    bottom: 15px;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background: white;
+    color: green;
+    transition: 0.5s ease-in-out;
+}
